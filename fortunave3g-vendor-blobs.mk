@@ -1,5 +1,10 @@
 LOCAL_PATH := vendor/samsung/fortunave3g/proprietary
 
+# Sensors
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+	$(LOCAL_PATH)/lib/libk303c.so:system/lib/libk303c.so
+
 # RIL
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/rild:system/bin/rild \
