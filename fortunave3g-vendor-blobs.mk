@@ -1,5 +1,5 @@
 LOCAL_PATH := vendor/samsung/fortunave3g/proprietary
-LOCAL_PATH_RIL := vendor/samsung/fortuna3g/proprietary_ril
+LOCAL_PATH_RIL := vendor/samsung/fortunave3g/proprietary_ril
 
 # Sensors
 PRODUCT_COPY_FILES += \
